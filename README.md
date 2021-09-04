@@ -2,14 +2,14 @@
 
 𝐀 𝐒𝐢𝐦𝐩𝐥𝐞 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐈𝐧𝐥𝐢𝐧𝐞 𝐓𝐨𝐫𝐫𝐞𝐧𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐁𝐨𝐭 𝐛𝐲 [@𝐏𝐫𝐞𝐝𝐚𝐭𝐨𝐫𝐇𝐚𝐜𝐤𝐞𝐫𝐳𝐙](https://github.com/AbirHasan2005).
 
-## Torrent API
+## 𝐓𝐨𝐫𝐫𝐞𝐧𝐭 𝐀𝐏𝐈
 - 𝐔𝐬𝐢𝐧𝐠 [api.abirhasan.wtf](https://api.abirhasan.wtf/) 𝐀𝐏𝐈
 
-## Host Bot
-### Deploy to Heroku
-Click Below Button to Deploy to Heroku:
+## 𝐇𝐨𝐬𝐭 𝐁𝐨𝐭
+### 𝐃𝐞𝐩𝐥𝐨𝐲 𝐭𝐨 𝐇𝐞𝐫𝐨𝐤𝐮
+𝐂𝐥𝐢𝐜𝐤 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧 𝐭𝐨 𝐃𝐞𝐩𝐥𝐨𝐲 𝐭𝐨 𝐇𝐞𝐫𝐨𝐤𝐮:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbirHasan2005/Torrent-Search-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PredatorHackerzZ/Torrent-Searcher)
 
 ### 𝐃𝐞𝐩𝐥𝐨𝐲 𝐋𝐨𝐜𝐚𝐥𝐥𝐲
 ```shell
@@ -20,7 +20,9 @@ python3 main.py
 ```
 
 ### 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩:
-<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/TeleRoid14"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+### 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
+<a href="https://t.me/TeleRoidGroup"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-blue.svg?logo=telegram"></a>
 
 👮 <b>𝐃𝐞𝐯</b>
 
