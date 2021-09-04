@@ -21,7 +21,7 @@ DEFAULT_SEARCH_MARKUP = [
                      InlineKeyboardButton("𝐆𝐎 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query_current_chat="!a ")],
                     [InlineKeyboardButton("⭕ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⭕", url="https://t.me/TeleRoidGroup"),
                      InlineKeyboardButton("⭕ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ⭕", url="https://t.me/TeleRoid14")],
-                    [InlineKeyboardButton("👤 𝐇𝐞𝐥𝐩 👤", callback_data="")]
+                    [InlineKeyboardButton("👤 𝐀𝐛𝐨𝐮𝐭 👤", callback_data="aboutbot")]
                 ]
 
 
@@ -269,6 +269,46 @@ async def inline_handlers(_, inline: InlineQuery):
         except QueryIdInvalid:
             print(f"[{Config.SESSION_NAME}] - Failed to Answer Error - {inline.from_user.first_name} - Sleeping for 5s")
             await asyncio.sleep(5)
+
+@TorrentBot.on_callback_query()
+async def button(bot: Client, cmd: CallbackQuery):
+
+    cb_data = cmd.data
+    if "aboutbot" in cb_data:
+        await cmd.message.edit(
+            Config.ABOUT_BOT,
+            parse_mode="Markdown",
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+					[
+						InlineKeyboardButton("𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞𝐬 𝐨𝐟 𝐁𝐨𝐭 ", url="https://t.me/Moviesflixers_DL")
+					],
+					[
+						InlineKeyboardButton("👮 𝐃𝐞𝐯 ", url="https://t.me/TheTeleRoid"),
+						InlineKeyboardButton("🏠 𝐇𝐨𝐦𝐞", callback_data="home")
+					]
+	        ]
+            )
+        )
+
+    elif "home" in cb_data:
+        await cmd.message.edit(
+            Config.HOME_TEXT,
+            parse_mode="Markdown",
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                                        [
+						InlineKeyboardButton("🤓 𝐆𝐢𝐭𝐡𝐮𝐛", url="https://github.com/PredatorHackerzZ")
+					],
+					[
+						InlineKeyboardButton("👥 𝐀𝐛𝐨𝐮𝐭 ", callback_data="aboutbot"),
+						InlineKeyboardButton("🏠 𝐇𝐨𝐦𝐞", callback_data="home")
+					]
+                ]
+            )
+        )
 
 
 TorrentBot.run()
